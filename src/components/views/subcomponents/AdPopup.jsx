@@ -17,10 +17,14 @@ const AdPopup = () => {
     setShowPopup(false);
   };
 
+  const preventClose = (e) => {
+    e.stopPropagation();
+  };
+
   if (showPopup) {
     return (
-      <div className="ad-popup">
-        <div className="ad-content">
+      <div className="ad-popup" onClick={closePopup}>
+        <div className="ad-content" onClick={preventClose}>
           <span className="close-button" onClick={closePopup}>
             X
           </span>
