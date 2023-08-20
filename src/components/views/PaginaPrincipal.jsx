@@ -4,6 +4,7 @@ import { Container, Image } from "react-bootstrap";
 import Productos from "./subcomponents/Productos";
 import CentroMedico from "./subcomponents/CentroMedico";
 import Profesionales from "./subcomponents/Profesionales";
+import AdPopup from "./subcomponents/AdPopup";
 
 const PaginaPrincipal = () => {
   return (
@@ -38,6 +39,7 @@ const PaginaPrincipal = () => {
       <section>
         <Profesionales></Profesionales>
       </section>
+      <AdPopup></AdPopup>
     </div>
   );
 };
