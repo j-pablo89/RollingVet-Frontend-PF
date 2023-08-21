@@ -4,6 +4,7 @@ import Productos from "./subcomponents/Productos";
 import CentroMedico from "./subcomponents/CentroMedico";
 import Profesionales from "./subcomponents/Profesionales";
 import AdPopup from "./subcomponents/AdPopup";
+import Comentarios from "./subcomponents/Comentarios";
 
 const PaginaPrincipal = () => {
   return (
@@ -41,6 +42,7 @@ const PaginaPrincipal = () => {
       <section>
         <Productos></Productos>
       </section>
+      <Comentarios></Comentarios>
       <AdPopup></AdPopup>
     </div>
   );
