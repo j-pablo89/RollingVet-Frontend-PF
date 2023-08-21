@@ -6,8 +6,8 @@ const Profesionales = () => {
       <hr />
       <h2 className="display-4 text-center py-3">Equipo de Profesionales</h2>
       <Container>
-        <Row className="g-4 py-3">
-            <Col className="col-4">
+        <Row className="g-4 py-3 row">
+            <Col className="col-xs-6 col-sm-6 col-lg-4 col-md-6 col-12">
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/6235242/pexels-photo-6235242.jpeg" />
                 <Card.Body className="text-center">
@@ -18,7 +18,7 @@ const Profesionales = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-4">
+            <Col className="col-xs-6 col-sm-6 col-lg-4 col-md-6 col-12">
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg" />
                 <Card.Body className="text-center">
@@ -29,7 +29,7 @@ const Profesionales = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-4">
+            <Col className="col-xs-6 col-sm-6 col-lg-4 col-md-6 col-12">
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/5486964/pexels-photo-5486964.jpeg" />
                 <Card.Body className="text-center">
@@ -40,7 +40,7 @@ const Profesionales = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-4">
+            <Col className="col-xs-6 col-sm-6 col-lg-4 col-md-6 col-12">
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/5487067/pexels-photo-5487067.jpeg" />
                 <Card.Body className="text-center">
@@ -51,7 +51,7 @@ const Profesionales = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-4">
+            <Col className="col-xs-6 col-sm-6 col-lg-4 col-md-6 col-12">
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/6816848/pexels-photo-6816848.jpeg" />
                 <Card.Body className="text-center">
@@ -62,7 +62,7 @@ const Profesionales = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col className="col-4">
+            <Col className="col-xs-6 col-sm-6 col-lg-4 col-md-6 col-12">
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/6131568/pexels-photo-6131568.jpeg" />
                 <Card.Body className="text-center">

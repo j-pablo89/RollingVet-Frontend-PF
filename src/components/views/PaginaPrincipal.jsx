@@ -38,6 +38,9 @@ const PaginaPrincipal = () => {
       <section>
         <Profesionales></Profesionales>
       </section>
+      <section>
+        <Productos></Productos>
+      </section>
       <AdPopup></AdPopup>
     </div>
   );
