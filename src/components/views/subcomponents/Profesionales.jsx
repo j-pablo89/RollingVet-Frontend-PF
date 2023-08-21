@@ -11,7 +11,7 @@ const Profesionales = () => {
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/6235242/pexels-photo-6235242.jpeg" />
                 <Card.Body className="text-center">
-                  <Card.Title>Carlos Perez</Card.Title>
+                  <Card.Title>Carlos Pérez</Card.Title>
                   <Card.Text>
                     Médico Veterinario M.P.: N°7023
                   </Card.Text>
@@ -22,7 +22,7 @@ const Profesionales = () => {
               <Card>
                 <Card.Img variant="top" src="https://images.pexels.com/photos/6235233/pexels-photo-6235233.jpeg" />
                 <Card.Body className="text-center">
-                  <Card.Title>Lucas Suarez</Card.Title>
+                  <Card.Title>Lucas Suárez</Card.Title>
                   <Card.Text>
                     Médico Veterinario M.P.: N°7685
                   </Card.Text>

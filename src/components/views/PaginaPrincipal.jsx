@@ -1,6 +1,5 @@
 import CardPlan from "./subcomponents/CardPlan";
 import "../../App.css";
-import { Container, Image } from "react-bootstrap";
 import Productos from "./subcomponents/Productos";
 import CentroMedico from "./subcomponents/CentroMedico";
 import Profesionales from "./subcomponents/Profesionales";
