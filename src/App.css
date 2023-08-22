@@ -67,6 +67,15 @@ video{
   cursor: pointer;
 }
 
+.hoverTrigger{
+  transform: scale(1.5);
+}
+
+
+.hoverTrigger:hover{
+  transform: scale(1.8);
+  transition: 0.5s;
+}
 
 @media screen and (max-width: 800px){
   h1{

@@ -4,10 +4,10 @@ import Row from "react-bootstrap/Row";
 
 const Productos = () => {
   return (
-    <div>
+    <div className="px-3">
       <hr />
       <h2 className="display-4 text-center py-3">Tienda</h2>
-      <Row xs={1} md={2} className="g-4">
+      <Row xs={1} md={2} lg={4} className="g-4">
         {Array.from({ length: 4 }).map((_, idx) => (
           <Col key={idx}>
             <Card>
