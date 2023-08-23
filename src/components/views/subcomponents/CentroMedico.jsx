@@ -2,7 +2,7 @@ import { Carousel, Image } from "react-bootstrap";
 
 const CentroMedico = () => {
   return (
-    <div className="container">
+    <div>
         <hr />
         <h2 className='text-center py-3 display-4'>Nuestras Instalaciones</h2>
       <Carousel fade>
