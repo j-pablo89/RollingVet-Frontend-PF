@@ -1,13 +1,14 @@
 import React from "react";
+import "../../../App.css";
 
 const Video = () => {
   return (
     <div className="mainSection" id="section1">
-      <h1 className="ps-3 letraPersonalizada2 text-danger pt-2 mt-3 overlay">
+      <h1 className="ps-3 letraPersonalizada2 text-danger pt-2 mt-3 overlay mititulo">
         ANIMALANDIA AL SERVICIO DE SUS PATITAS
       </h1>
-      <div className="col-4 fs-2 ps-3 pt-5 mt-5 overlay">
-        <p>
+      <div className="col-6 fs-1 ps-3 pt-5 mt-5 overlay">
+        <p className="tamanio">
           Contamos con un equipo de profesionales altamente capacitados para
           brindar una excelente atención. Accede a uno de nuestros planes y
           lleva la mejor cobertura acorde a las necesidades de tu mascota.

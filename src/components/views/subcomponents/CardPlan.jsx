@@ -6,14 +6,14 @@ function GridExample() {
       <h2 className="text-center py-3 display-4">
         Nuestros planes para tu mascota
       </h2>
-      <Row className="g-4 d-flex">
+      <Row className="g-4 d-flex justify-content-center" xs={1} sm={2} lg={3}>
         <Col>
           <Card className="text-center border-4 border-danger">
             <Card.Img
               variant="top"
               src="https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg"
             />
-            <Card.Body>
+            <Card.Body className="cardBody">
               <Card.Title className="py-3 letraPersonalizada1 text-danger fs-3">
                 PRIMEROS PASOS
               </Card.Title>
@@ -32,7 +32,7 @@ function GridExample() {
               variant="top"
               src="https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg"
             />
-            <Card.Body>
+            <Card.Body className="cardBody">
               <Card.Title className="py-3 letraPersonalizada1 text-danger fs-3">
                 MADURANDO
               </Card.Title>
@@ -51,7 +51,7 @@ function GridExample() {
               variant="top"
               src="https://images.pexels.com/photos/5731866/pexels-photo-5731866.jpeg"
             />
-            <Card.Body>
+            <Card.Body className="cardBody">
               <Card.Title className="py-3 letraPersonalizada1 text-danger fs-3">
                 ADULTOS
               </Card.Title>
