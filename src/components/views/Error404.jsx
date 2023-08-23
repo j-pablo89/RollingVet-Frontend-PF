@@ -5,7 +5,7 @@ const Error404 = () => {
     return (
         <div className='text-center'>
             <Image src='../src/assets/errorpage.jpg' className='img-fluid'></Image>
-            <Button variant='danger' className='mb-3 px-5 mt-0'>Regresar</Button>
+            <Button variant='danger' className='mb-3 px-5'>Regresar</Button>
         </div>
     );
 };
