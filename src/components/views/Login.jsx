@@ -7,7 +7,7 @@ const Login = () => {
             <Col lg={7}>
                 <Row className="my-5 py-3 border border-5 border-danger-subtle rounded-5 mifondo">
                 <Col lg={7}>
-                   <h2 className="text-center py-3 text-danger">Iniciar Sesión</h2>
+                   <h2 className="text-center py-3">Iniciar Sesión</h2>
                    <Form className="d-flex align-items-center flex-column">
                         <Form.Group controlId="formGridEmail" className="mb-3">
                         <FloatingLabel controlId="floatingInput" label="Email" className="mb-3 border border-1 border-info rounded-2">
