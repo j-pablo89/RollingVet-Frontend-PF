@@ -6,6 +6,7 @@ import PaginaPrincipal from './components/views/PaginaPrincipal';
 import Error404 from './components/views/Error404';
 import Contacto from './components/views/Contacto';
 import Login from './components/views/Login';
+import Administrador from './components/views/Administrador';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <PaginaPrincipal></PaginaPrincipal> */}
       {/* <Error404></Error404> */}
       {/* <Contacto></Contacto> */}
-      <Login></Login>
+      {/* <Login></Login> */}
+      <Administrador></Administrador>
       <Footer></Footer>
     </>
   )
