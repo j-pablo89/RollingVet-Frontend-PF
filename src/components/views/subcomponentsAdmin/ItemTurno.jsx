@@ -11,12 +11,12 @@ const ItemTurno = () => {
             <td>Huesitos</td>
             <td>06-12-2023</td>
             <td>15:00</td>
-            <td>
+            {/* <td>
                 <Button className="btn btn-warning">Editar</Button>
                 <Button variant="danger">
                 Borrar
                 </Button>
-            </td>
+            </td> */}
             </tr>
         </>
     );

@@ -8,7 +8,7 @@ const Administrador = () => {
         
          <section className="container mainSection">
         <div className="mt-5 text-center">
-          <h1 className="display-4 text-center">Bienvenido Administrador</h1>
+          <h1 className="display-4 text-center">Administrador</h1>
           <span className="text-center">SystemWeb v1.0</span>
         </div>
         <hr />
@@ -22,7 +22,6 @@ const Administrador = () => {
               <th>Mascota</th>
               <th>Fecha</th>
               <th>Hora</th>
-              <th>Acciones</th>
             </tr>
           </thead>
           <tbody>
