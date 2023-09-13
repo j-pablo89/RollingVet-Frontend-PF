@@ -7,6 +7,7 @@ import Error404 from './components/views/Error404';
 import Contacto from './components/views/Contacto';
 import Login from './components/views/Login';
 import Administrador from './components/views/Administrador';
+import AdministrarPacientes from './components/views/subcomponentsAdmin/AdministrarPacientes';
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <Error404></Error404> */}
       {/* <Contacto></Contacto> */}
       {/* <Login></Login> */}
-      <Administrador></Administrador>
+      {/* <Administrador></Administrador> */}
+      <AdministrarPacientes></AdministrarPacientes>
       <Footer></Footer>
     </>
   )

@@ -5,7 +5,6 @@ import "../../App.css";
 const Administrador = () => {
     return (
         <div className="mifondo2">
-        
          <section className="container mainSection">
         <div className="mt-5 text-center">
           <h1 className="display-4 text-center">Administrador</h1>
